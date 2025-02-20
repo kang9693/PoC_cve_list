@@ -16,8 +16,7 @@ https://security.paloaltonetworks.com/CVE-2025-0108 </br>
 https://github.com/iSee857/CVE-2025-0108-PoC </br>
 https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os/ </br>
 https://www.bleepingcomputer.com/news/securitypalo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</br>
-https://www.darkreading.com/remote-workforce/</br>
-patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild</br>
+https://www.darkreading.com/remote-workforce/patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild</br>
 https://www.securityweek.com/palo-alto-networks-confirms-exploitation-of-firewall-vulnerability/</br>
 
 
