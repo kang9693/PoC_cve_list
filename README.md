@@ -11,13 +11,21 @@ Palo Alto Networks Pan-OS 소프트웨어의 인증 우회는 관리 웹 인터�
 권장 모범 사례 배포 가이드 라인 https://live.paloaltonetworks.com/t5/tips-logs/tips-amp에 따라 관리 웹 인터페이스에 대한 신뢰할 수있는 
 내부 IP 주소로만 관리 웹 인터페이스에 대한 액세스를 제한 하여이 문제의 위험을 크게 줄일 수 있습니다.
 
-references:
+references site :</br>
 https://security.paloaltonetworks.com/CVE-2025-0108 </br>
 https://github.com/iSee857/CVE-2025-0108-PoC </br>
 https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os/ </br>
-https://www.bleepingcomputer.com/news/security/ </br>
-palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</br>
+https://www.bleepingcomputer.com/news/securitypalo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</br>
 https://www.darkreading.com/remote-workforce/</br>
 patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild</br>
-https://www.securityweek.com/</br>
-palo-alto-networks-confirms-exploitation-of-firewall-vulnerability/</br>
+https://www.securityweek.com/palo-alto-networks-confirms-exploitation-of-firewall-vulnerability/</br>
+
+
+Poc github </br>
+https://github.com/iSee857/CVE-2025-0108-PoC</br>
+https://github.com/FOLKS-iwd/CVE-2025-0108-PoC</br>
+https://github.com/becrevex/CVE-2025-0108 </br>
+https://github.com/sohaibeb/CVE-2025-0108 </br>
+https://github.com/fr4nc1stein/CVE-2025-0108-SCAN </br>
+https://github.com/barcrange/CVE-2025-0108-Authentication-Bypass-checker </br>
+
