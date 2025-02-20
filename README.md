@@ -12,9 +12,12 @@ Palo Alto Networks Pan-OS 소프트웨어의 인증 우회는 관리 웹 인터�
 내부 IP 주소로만 관리 웹 인터페이스에 대한 액세스를 제한 하여이 문제의 위험을 크게 줄일 수 있습니다.
 
 references:
-https://security.paloaltonetworks.com/CVE-2025-0108
-https://github.com/iSee857/CVE-2025-0108-PoC
-https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os/
-https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/
-https://www.darkreading.com/remote-workforce/patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild
-https://www.securityweek.com/palo-alto-networks-confirms-exploitation-of-firewall-vulnerability/
+https://security.paloaltonetworks.com/CVE-2025-0108 </br>
+https://github.com/iSee857/CVE-2025-0108-PoC </br>
+https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os/ </br>
+https://www.bleepingcomputer.com/news/security/ </br>
+palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</br>
+https://www.darkreading.com/remote-workforce/</br>
+patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild</br>
+https://www.securityweek.com/</br>
+palo-alto-networks-confirms-exploitation-of-firewall-vulnerability/</br>
