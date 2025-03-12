@@ -60,3 +60,6 @@ https://www.exploit-db.com/exploits/43924/</br>
 https://confluence.atlassian.com/jirakb/workaround-for-cve-2019-15004-979416164.html</br>
 
 
+
+<b>CVE-2025-27636(Apache Camel vul)</b>
+https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC<bR>
