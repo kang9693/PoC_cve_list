@@ -85,10 +85,30 @@ CVE-2019-10475	:build-monitor-plugin 플러그인의 과도한 요청으로 인�
 https://github.com/vesche/CVE-2019-10475</br>
 
 
+
+
 CVE-2019-1003000:	경로 우회를 통한 과도한 요청 가능성</br>
-CVE-2018-1999002:	XStream deserialization 취약점으로 인한 자원 소모 가능</br>
 <b>POC</b> </br>
 https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc</br>
+<b>탐지방법</b><br>
+ Jenkins Script Console 또는 Groovy Script 플러그인에서 악성 스크립트가 실행되는 원격 코드 실행(RCE) 시나리오 <br>
+ <b>snort rule 예시<b> <br>
+ alert tcp $EXTERNAL_NET any -> $HOME_NET 8080 (
+    msg: "[Exploit] Jenkins Groovy Script RCE 시도 (ProcBuilder 사용)";
+    flow: to_server, established;
+    content: "@Grab('org.buildobjects:jproc:2.2.3')"; nocase;
+    content: "ProcBuilder"; nocase;
+    content: "/bin/bash"; nocase;
+    pcre: "/ProcBuilder\\(\"\\/bin\\/bash\"\\)/";
+    classtype:attempted-admin;
+    sid:10002100;
+    rev:1;
+)
+
+
+
+CVE-2018-1999002:	XStream deserialization 취약점으로 인한 자원 소모 가능</br>
+
 
 CVE-2017-1000353:	Jenkins CLI에 대한 대량 요청으로 서비스 중단 유발 가능</br>
 <b>POC</b> </br>
