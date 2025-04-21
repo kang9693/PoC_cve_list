@@ -71,3 +71,27 @@ https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC<bR>
 
 <b>POC</b> </br>
 https://github.com/gquere/pwn_jenkins<bR>
+
+
+
+ <b>Jenkins 취약점 / DDoS 관련 CVE 목록<b><bR>
+CVE-2020-2100:UDP multicast 기능을 이용한 DDoS 증폭 공격 가능</br>
+CVE-2023-27898:	과도한 URL 요청 시 Jenkins가 과부하로 다운될 수 있음</br>
+CVE-2022-45389:	Jenkins 플러그인에서 자원 고갈 유발 가능</br>
+CVE-2021-21670:	API 호출 시 메모리 누수로 인한 서비스 거부 가능</br>
+CVE-2020-1983	:Jenkins CLI 처리에서 과다 요청 시 자원 소모 발생</br>
+CVE-2019-10475	:build-monitor-plugin 플러그인의 과도한 요청으로 인한 DoS</br>
+<b>POC</b> </br>
+https://github.com/vesche/CVE-2019-10475</br>
+
+
+CVE-2019-1003000:	경로 우회를 통한 과도한 요청 가능성</br>
+CVE-2018-1999002:	XStream deserialization 취약점으로 인한 자원 소모 가능</br>
+<b>POC</b> </br>
+https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc</br>
+
+CVE-2017-1000353:	Jenkins CLI에 대한 대량 요청으로 서비스 중단 유발 가능</br>
+<b>POC</b> </br>
+https://github.com/vulhub/CVE-2017-1000353</br>
+
+CVE-2015-5310	:Jenkins slave 연결 시 대량 요청으로 DoS 유발 가능</br>
