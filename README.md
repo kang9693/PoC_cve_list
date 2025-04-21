@@ -61,5 +61,13 @@ https://confluence.atlassian.com/jirakb/workaround-for-cve-2019-15004-979416164.
 
 
 
-<b>CVE-2025-27636(Apache Camel vul)</b>
+<b>CVE-2025-27636(Apache Camel vul)</b></br>
+
+<b>POC</b> </br>
 https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC<bR>
+
+
+<b>CVE-2024-23897:Jenkins CLI arbitrary read (CVE-2024-23897 applies to versions below 2.442 and LTS 2.426.3)</b></br>
+
+<b>POC</b> </br>
+https://github.com/gquere/pwn_jenkins<bR>
