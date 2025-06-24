@@ -1,6 +1,12 @@
 # PoC_cve_list
 PoC_cve_list
 
+<b>CVE-2025-4981 : Critical Mattermost Flaw (CVE-2025-4981, CVSS 9.9) Allows RCE Via Path Traversal</b></br>
+ 아카이브 추출기에서 파일 이름을 소독하지 못하면 인증 된 사용자가 파일을 사용하여 파일을 쓸 수있는 파일을 사용하여 파일 을 쓸 수 있습니다.코드 실행.취약점은 컨텐츠 별 파일 업로드 및 문서 검색이 활성화되는 인스턴스에 영향을 미칩니다 (filestings.enableFileAtTachments = true 및 filesettings.extractContent = true).이러한 구성 설정은 기본적으로 활성화됩니다.
+  가장 중요한 버전 10.5.x <= 10.5.5, 9.11.x <= 9.11.15, 10.8.x <= 10.8.0, 10.7.x <= 10.7.2, 10.6.x <= 10.6.5
+
+
+
 <b>CVE-2025-0108 : Palo Alto Networks Pan-OS</b></br>
 Palo Alto Networks Pan-OS 소프트웨어의 인증 우회는 관리 웹 인터페이스에 대한 네트워크 액세스가있는 무단 공격자가 Pan-OS  
 관리 웹 인터페이스에 필요한 인증을 우회하고 특정 PHP 스크립트를 호출 할 수 있습니다.이러한 PHP 스크립트를 호출한다고해서 원격 코드 실행
